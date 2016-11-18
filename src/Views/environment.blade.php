@@ -5,7 +5,7 @@
     @if (session('message'))
         <p class="alert">{{ session('message') }}</p>
     @endif
-    <form method="post" action="{{ route('LaravelSetup::environmentSave') }}">
+    <form method="post" action="{{ route('DefaultInstaller::environmentSave') }}">
         {!! csrf_field() !!}
         <span style="font-size: 14px;">Database Host:</span>
         <input style="width: 100%" type="text" name="db_host" value="{{env('DB_HOST')}}">
@@ -21,7 +21,7 @@
     </form>
     @if( ! isset($environment['errors']))
         <div class="buttons">
-            <a class="button" href="{{ route('LaravelSetup::requirements') }}">
+            <a class="button" href="{{ route('DefaultInstaller::requirements') }}">
                 {{ trans('messages.next') }}
             </a>
         </div>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoets\LaravelSetup\Middleware;
+namespace Appoets\DefaultInstaller\Middleware;
 
 use Closure;
 use DB;

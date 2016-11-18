@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoets\LaravelSetup\Controllers;
+namespace Appoets\DefaultInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 

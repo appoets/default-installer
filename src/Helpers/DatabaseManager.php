@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoets\LaravelSetup\Helpers;
+namespace Appoets\DefaultInstaller\Helpers;
 
 use Exception;
 use Illuminate\Database\SQLiteConnection;

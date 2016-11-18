@@ -1,11 +1,11 @@
 <?php
 
-namespace Appoets\LaravelSetup\Controllers;
+namespace Appoets\DefaultInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
-use Appoets\LaravelSetup\Helpers\EnvironmentManager;
+use Appoets\DefaultInstaller\Helpers\EnvironmentManager;
 
 class EnvironmentController extends Controller
 {
@@ -47,7 +47,7 @@ class EnvironmentController extends Controller
     {
         $message = $this->EnvironmentManager->saveFile($input);
 
-        return $redirect->route('LaravelSetup::environment')
+        return $redirect->route('DefaultInstaller::environment')
                         ->with(['message' => $message]);
     }
 

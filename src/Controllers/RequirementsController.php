@@ -1,9 +1,9 @@
 <?php
 
-namespace Appoets\LaravelSetup\Controllers;
+namespace Appoets\DefaultInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use Appoets\LaravelSetup\Helpers\RequirementsChecker;
+use Appoets\DefaultInstaller\Helpers\RequirementsChecker;
 
 class RequirementsController extends Controller
 {

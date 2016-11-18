@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoets\LaravelSetup\Helpers;
+namespace Appoets\DefaultInstaller\Helpers;
 
 class RequirementsChecker
 {

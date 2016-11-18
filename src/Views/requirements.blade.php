@@ -10,7 +10,7 @@
 
     @if ( ! isset($requirements['errors']))
         <div class="buttons">
-            <a class="button" href="{{ route('LaravelSetup::permissions') }}">
+            <a class="button" href="{{ route('DefaultInstaller::permissions') }}">
                 {{ trans('messages.next') }}
             </a>
         </div>

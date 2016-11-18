@@ -1,10 +1,10 @@
 <?php
 
-namespace Appoets\LaravelSetupInstaller\Providers;
+namespace Appoets\DefaultInstaller\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelSetupInstallerServiceProvider extends ServiceProvider
+class DefaultInstallerServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -32,7 +32,7 @@ class LaravelSetupInstallerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        app('router')->middleware('canInstall', '\Appoets\LaravelSetupInstaller\Middleware\canInstall');
+        app('router')->middleware('canInstall', '\Appoets\DefaultInstaller\Middleware\canInstall');
     }
 
     /**

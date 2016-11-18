@@ -1,10 +1,10 @@
 <?php
 
-namespace Appoets\LaravelSetup\Controllers;
+namespace Appoets\DefaultInstaller\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Routing\Controller;
-use Appoets\LaravelSetup\Helpers\PermissionsChecker;
+use Appoets\DefaultInstaller\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Appoets\LaravelSetup\Controllers;
+namespace Appoets\DefaultInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use Appoets\LaravelSetup\Helpers\DatabaseManager;
+use Appoets\DefaultInstaller\Helpers\DatabaseManager;
 use Illuminate\Support\Facades\Artisan;
-use Appoets\LaravelSetup\Helpers\InstalledFileManager;
+use Appoets\DefaultInstaller\Helpers\InstalledFileManager;
 
 class DatabaseController extends Controller
 {
@@ -47,7 +47,7 @@ class DatabaseController extends Controller
 
         }else{
 
-            return redirect()->route('LaravelSetup::environment')
+            return redirect()->route('DefaultInstaller::environment')
                         ->with(['message' => $response['message']]);
         }
 

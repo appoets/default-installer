@@ -36,15 +36,15 @@
                 </div>
                 <ul class="step">
                     <li class="step__divider"></li>
-                    <li class="step__item {{ isActive('LaravelSetup::final') }}"><i class="step__icon database"></i></li>
+                    <li class="step__item {{ isActive('DefaultInstaller::final') }}"><i class="step__icon database"></i></li>
                     <li class="step__divider"></li>
-                    <li class="step__item {{ isActive('LaravelSetup::permissions') }}"><i class="step__icon permissions"></i></li>
+                    <li class="step__item {{ isActive('DefaultInstaller::permissions') }}"><i class="step__icon permissions"></i></li>
                     <li class="step__divider"></li>
-                    <li class="step__item {{ isActive('LaravelSetup::requirements') }}"><i class="step__icon requirements"></i></li>
+                    <li class="step__item {{ isActive('DefaultInstaller::requirements') }}"><i class="step__icon requirements"></i></li>
                     <li class="step__divider"></li>
-                    <li class="step__item {{ isActive('LaravelSetup::environment') }}"><i class="step__icon update"></i></li>
+                    <li class="step__item {{ isActive('DefaultInstaller::environment') }}"><i class="step__icon update"></i></li>
                     <li class="step__divider"></li>
-                    <li class="step__item {{ isActive('LaravelSetup::welcome') }}"><i class="step__icon welcome"></i></li>
+                    <li class="step__item {{ isActive('DefaultInstaller::welcome') }}"><i class="step__icon welcome"></i></li>
                     <li class="step__divider"></li>
                 </ul>
                 <div class="main">
