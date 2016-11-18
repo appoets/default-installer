@@ -1,4 +1,4 @@
-# Laravel Web Setup Installer
+# Default Installer
 Laravel Setup Wizard for 5.3
 
 The current features are : 
@@ -33,3 +33,4 @@ Before using this package you need to run :
 ```bash
 php artisan vendor:publish --provider="Appoets\LaravelSetup\Providers\LaravelSetupServiceProvider"
 ```
+
