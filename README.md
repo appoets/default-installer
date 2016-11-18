@@ -23,7 +23,7 @@ After that, include the service provider within `config/app.php`.
 
 ```
 'providers' => [
-    Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider::class,
+    appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider::class,
 ];
 ```
 
