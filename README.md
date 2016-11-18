@@ -15,7 +15,7 @@ The current features are :
 First, pull in the package through Composer.
 
 ```
-composer require "appoets/laravel-setup-installer":"dev-master"
+composer require "appoets/default-installer":"dev-master"
 
 ```
 
@@ -23,7 +23,7 @@ After that, include the service provider within `config/app.php`.
 
 ```
 'providers' => [
-    Appoets\LaravelSetup\Providers\LaravelSetupServiceProvider::class,
+    Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider::class,
 ];
 ```
 
@@ -31,6 +31,6 @@ After that, include the service provider within `config/app.php`.
 
 Before using this package you need to run :
 ```bash
-php artisan vendor:publish --provider="Appoets\LaravelSetup\Providers\LaravelSetupServiceProvider"
+php artisan vendor:publish --provider="Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider"
 ```
 
