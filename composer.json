@@ -1,0 +1,15 @@
+{
+    "name": "appoets/default-installer",
+    "description": "Laravel 5.3 web installer",
+    "keywords": ["package", "laravel", "installer", "setup", "database","migrate","seed"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ayokesh",
+            "email": "ayokesh.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    }
+}
