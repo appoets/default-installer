@@ -1,5 +1,5 @@
 # Default Installer
-Laravel Setup Wizard for 5.3
+Laravel Setup Wizard for 5.*
 
 The current features are : 
 
@@ -23,7 +23,7 @@ After that, include the service provider within `config/app.php`.
 
 ```
 'providers' => [
-    appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider::class,
+    Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider::class,
 ];
 ```
 
@@ -34,3 +34,4 @@ Before using this package you need to run :
 php artisan vendor:publish --provider="Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider"
 ```
 
+Happy Coding :)
