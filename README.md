@@ -1,5 +1,12 @@
+
 # Default Installer
 Laravel Setup Wizard for 5.*
+
+<p align="left">
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/appoets/default-installer/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/appoets/default-installer/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/appoets/default-installer/license.svg" alt="License"></a>
+</p>
 
 The current features are : 
 
