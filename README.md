@@ -1,6 +1,7 @@
 
-# Default Installer
-Laravel Setup Wizard for 5.*
+# Laravel Default Installer for 5.*
+
+This Setup wizard will help to install the laravel application in your system and No Coding knowledge just need to click the installa button
 
 <p align="left">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/appoets/default-installer/d/total.svg" alt="Total Downloads"></a>
@@ -10,11 +11,12 @@ Laravel Setup Wizard for 5.*
 
 The current features are : 
 
-	- Check For Server Requirements.
-	- Check For Folders Permissions.
-	- Ability to set database information.
-	- Migrate The Database.
-	- Seed The Tables.
+	- It will Check For Server Requirements.
+	- It will Check For Folders Permissions.
+	- Has the Ability to set database information.
+	- It will Migrate The Database.
+	- It will Seed The Tables.
+	- Finally it will redirect to home page
   
 
 ## Installation
@@ -36,8 +38,8 @@ After that, include the service provider within `config/app.php`.
 
 ## Usage
 
-Before using this package you need to run :
-```bash
+Before using this package you need to run this command to publish the vendor files :
+```
 php artisan vendor:publish --provider="Appoets\DefaultInstaller\Providers\DefaultInstallerServiceProvider"
 ```
 
